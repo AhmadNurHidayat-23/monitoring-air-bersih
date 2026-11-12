@@ -17,12 +17,14 @@ Python 3.13, FastAPI, Jinja2, Uvicorn, SQLite, HTML, CSS, JavaScript.
 
 ~~~powershell
 cd C:\laragon\www\monitoring-air-bersih
-py -3.13 -m venv .venv
+& 'C:\laragon\bin\python\python-3.13\python.exe' -m venv .venv
 .venv\Scripts\python -m pip install -r requirements.txt
 .venv\Scripts\python -m core.users --role Admin
 ~~~
 
 Ulangi dengan --role Petugas. Kata sandi melalui prompt; tidak ada akun bawaan.
+
+Lokasi Python pada perintah instalasi mengikuti Laragon di komputer ini; sesuaikan bila instalasi Python berada di lokasi lain.
 
 ## Cara menjalankan
 
